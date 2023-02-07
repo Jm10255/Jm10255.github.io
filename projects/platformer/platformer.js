@@ -44,9 +44,7 @@ $(function () {
   createCollectable("steve", 1000, 500,);
   createCollectable("max", 650, 120);
   createCollectable("grace", 500, 220);
-  type.steve
-  type.max
-  type.grace
+  
     
     
     // TODO 3
@@ -54,9 +52,9 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
-    createCannon("left", 650, 500);
-    createCannon("right", 600, 1000);
-
+    createCannon("top", 600, 2000);
+    createCannon("bottom", 300, 2000);
+    createCannon("right", 450, 2000)
 
 
 
