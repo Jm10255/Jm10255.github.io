@@ -43,7 +43,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
   createCollectable("steve", 1000, 500,);
   createCollectable("max", 650, 120);
-  createCollectable("grace", 500, 220);
+  createCollectable("jfk", 500, 220);
   
     
     
